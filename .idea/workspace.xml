@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d79d090b-1413-41e0-898a-f3d201bce49f" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/_site/about/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/_site/about/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/_site/feed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/docs/_site/feed.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/_site/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/_site/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/about.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/docs/about.markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/index.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.markdown" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -31,8 +36,8 @@
         <entry file="file://$PROJECT_DIR$/docs/about.markdown">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="120">
-                <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+              <first_editor relative-caret-position="234">
+                <caret line="23" column="82" selection-start-line="23" selection-start-column="82" selection-end-line="23" selection-end-column="82" />
               </first_editor>
               <second_editor>
                 <markdownNavigatorState />
@@ -45,8 +50,8 @@
         <entry file="file://$PROJECT_DIR$/docs/index.markdown">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="180">
-                <caret line="12" selection-start-line="12" selection-end-line="12" />
+              <first_editor relative-caret-position="207">
+                <caret line="16" column="213" lean-forward="true" selection-start-line="16" selection-start-column="149" selection-end-line="16" selection-end-column="213" />
               </first_editor>
               <second_editor>
                 <markdownNavigatorState />
@@ -76,8 +81,8 @@
         <option value="$PROJECT_DIR$/docs/about1.markdown" />
         <option value="$PROJECT_DIR$/docs/_layouts/default0.html" />
         <option value="$PROJECT_DIR$/docs/_config.yml" />
-        <option value="$PROJECT_DIR$/docs/index.markdown" />
         <option value="$PROJECT_DIR$/docs/_layouts/default.html" />
+        <option value="$PROJECT_DIR$/docs/index.markdown" />
         <option value="$PROJECT_DIR$/docs/about.markdown" />
       </list>
     </option>
@@ -264,18 +269,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/index.markdown">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="180">
-            <caret line="12" selection-start-line="12" selection-end-line="12" />
-          </first_editor>
-          <second_editor>
-            <markdownNavigatorState />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/docs/_layouts/default.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="219">
@@ -290,11 +283,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/docs/index.markdown">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="207">
+            <caret line="16" column="213" lean-forward="true" selection-start-line="16" selection-start-column="149" selection-end-line="16" selection-end-column="213" />
+          </first_editor>
+          <second_editor>
+            <markdownNavigatorState />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/docs/about.markdown">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="120">
-            <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+          <first_editor relative-caret-position="234">
+            <caret line="23" column="82" selection-start-line="23" selection-start-column="82" selection-end-line="23" selection-end-column="82" />
           </first_editor>
           <second_editor>
             <markdownNavigatorState />
