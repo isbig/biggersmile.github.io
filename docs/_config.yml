@@ -20,17 +20,24 @@
 
 title: คลินิกทันตกรรมบิ๊กเกอร์สไมล์
 email: biggersmile_dentalclinic@outlook.com
-description: >- # this means to ignore newlines until "baseurl:"
-  ขณะนี้เว็บไซต์ของทางคลินิกทันตกรรมบิ๊กเกอร์สไมล์กำลังอยู่ในช่วงปรับปรุง
+phone: 094-446-1404
+address: 84/7-8 ม.12 ต.สิ อ.ขุนหาญ จ.ศรีสะเกษ 33150
+
+
+description: #>- # this means to ignore newlines until "baseurl:"
+  เพื่อรอยยิ้มที่กว้างขึ้น
+
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
+logo: logo.png
+logo_yaw: logo_yaw.png
 
 # Build settings
-theme: minima
+remote_theme: pages-themes/minimal@v0.2.0
 plugins:
-  - jekyll-feed
+- jekyll-remote-theme
 
 # Exclude from processing.
 # The following items will not be processed, by default.

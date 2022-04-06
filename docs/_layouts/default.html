@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+{% seo %}
+    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+    {% include head-custom.html %}
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h3><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h3>
+
+        {% if site.logo %}
+          <img src="{{site.logo | relative_url}}" alt="Logo"
+               style="object-fit:contain;
+            width:180px;
+            height:auto;
+            "/>
+        {% endif %}
+
+
+        <p>{{ site.description | default: site.github.project_tagline }}</p>
+
+        <span style="white-space: pre-line">
+        <b>วันและเวลาทำการ</b>
+          <b>-----------------------</b>
+          <b>วันอังคาร - วันศุกร์</b>
+              เวลา 16.30-20.00 น.
+          <b>-----------------------</b>
+          <b>วันเสาร์ วันอาทิตย์
+            และวันหยุดนักขัตฤกษ์</b>
+              เวลา 10.00-20.00 น.
+          <b>-----------------------</b>
+          โทร: 094-446-1404
+          ไลน์: @biggersmile
+          เพจ: https://www.facebook.com/biggersm/
+
+        </span>
+
+        {% if site.logo_yaw %}
+          <img src="{{site.logo_yaw | relative_url}}" alt="Logo"
+          style="object-fit:contain;
+            width:300px;
+            height:auto;
+            "/>
+        {% endif %}
+
+        <span style="white-space: pre-line">
+          84/7-8 ม.12 ต.สิ อ.ขุนหาญ จ.ศรีสะเกษ 33150</span>
+
+
+      </header>
+      <section>
+
+      {{ content }}
+
+      </section>
+
