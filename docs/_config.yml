@@ -18,6 +18,8 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
+header_pages: about.markdown
+
 title: คลินิกทันตกรรมบิ๊กเกอร์สไมล์
 email: biggersmile_dentalclinic@outlook.com
 phone: 094-446-1404
